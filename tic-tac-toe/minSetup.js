@@ -1,10 +1,10 @@
-const game = function () {
-  // write private game code here
+const game = () => {
+    // write private game code here
 
 
-  return {
-    // write public methods here
-  }
+    return {
+        // write public methods here
+    }
 
 };
 

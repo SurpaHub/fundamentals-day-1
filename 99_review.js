@@ -1,17 +1,13 @@
-
-//Day 3 practice prompts
-
-
 // Define a function called "greeting". It should accept two parameters, which will be names.
 // The function should log a greeting to both people.
 
-function greeting(/*parameters*/) {
-    /*write the function body here*/
-}
-greeting("Rachel","Brent");
+const greeting = () => {
+
+};
+greeting("Rachel", "Brent");
 
 
-// write a function called 'changeCounter' that accepts coins and returns total yen.
+// Write a function called 'changeCounter' that accepts coins and returns total amount in dollars (or currency of your choice).
 
 
 // Create a new function called minimum3() that accepts 3 numbers and logs the smallest one
@@ -31,19 +27,16 @@ sum([1, 2, 3, 4, 5, 6]);
 // Write a function that accepts a string and reverses it.
 
 
-
 // Write a function accepts a six-digit number that reverses the number.
 // (Hint, you will have to turn the integer into a string before you can reverse it.)
 
-const longNum = 123456;
-
+const sixDigitNum = 123456;
 
 
 // Write a function that accepts the following array and separates the people into two teams.
 // No names next to each other in the array should be on the same team.
 
 const teammates = ["Yuina", "Ren", "Hiroto", "Hina", "Yuuma", "Minato", "Airi", "Mei", "Yuuto", "Haruto", "Koharu"]
-
 
 
 // Write a function called filterSixPlus() that takes the following array and logs words
