@@ -7,18 +7,18 @@ const number = 3;
 const numberStr = '3';
 const boolType = false;
 
-string          // returns: 'a string contains text in quote marks'
-number          // returns: 3
-numberStr       // returns: '3'
-boolType        // returns: false
+string      // returns: 'a string contains text in quote marks'
+number      // returns: 3
+numberStr   // returns: '3'
+boolType    // returns: false
 
 // variables & mutability
 let x = 1;
-x               // 1
+x           // 1
 x = 2;
-x               // 2
+x           // 2
 x = 3;
-x               // 3
+x           // 3
 
 // 1. Declare a variable called 'name' and assign it to a string of your name.  Use console.log to print it.
 const name = 'John Smith';
