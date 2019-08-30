@@ -7,7 +7,7 @@ const number = 3;
 const numberStr = '3';
 const boolType = false;
 
-string      // returns: 'a string contains text in quote marks'
+string      // returns: 'a string contains text in quote marks' 
 number      // returns: 3
 numberStr   // returns: '3'
 boolType    // returns: false
