@@ -64,9 +64,11 @@ console.log((1 < 2) && (3 + 4 > 7) || true);                    // returns: true
 // 1. Declare and assign 6 variables: 2 that are strings, 2 that are numbers, 2 that are booleans.
 const str1 = 'String';
 const str2 = 'STRING';
+const str3 = '3';
 
 const num1 = 17;
 const num2 = 150;
+const num3 = 3;
 
 const bool1 = true;
 const bool2 = false;
@@ -77,4 +79,17 @@ const bool2 = false;
 console.log(str1 === str2);     // returns: false
 console.log(num1 == num2);      // returns: false
 console.log(num1 <= num2);      // returns: true
+
+console.log(bool1 && bool2);    // returns: false
 console.log(bool1 || bool2);    // returns: true
+console.log(bool2 && bool2);    // returns: false
+console.log(bool2 || bool2);    // returns: flase
+
+console.log(str3 == num3);      // returns: true
+console.log(str3 === num3);     // returns: false
+
+console.log(num1 == num1 && str3 === num3);     // returns: false
+console.log(num1 == num1 && str3 == num3);      // returns: true
+
+console.log(num3== str3 || num1 == num2);       // returns: true
+
